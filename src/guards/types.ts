@@ -10,6 +10,10 @@ interface RouteGuard {
     children : ReactNode;
 }
 
+export const enum GuardValidType {
+  AUTH = "Auth",
+  GUEST = "Guest",
+}
 
 
 export type GuardInterface = ({children }  : {children : JSX.Element}) => JSX.Element

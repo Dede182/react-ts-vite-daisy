@@ -1,4 +1,3 @@
-
 interface RouteCollection {
     [key: string]: any;
 }
@@ -12,3 +11,4 @@ export const routesCollection : Record<string,RouteCollection> = {
       path: '/test',
     },
 }
+
