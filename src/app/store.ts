@@ -1,9 +1,13 @@
+import { appCustomize } from './customize/appCustomize';
 import { configureStore } from "@reduxjs/toolkit";
 import thunkMiddleware from 'redux-thunk';
 
 
 export const store = configureStore({
-    reducer: {},
+    reducer: {
+      appCustomize : appCustomize.reducer,
+
+    },
     middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: false,

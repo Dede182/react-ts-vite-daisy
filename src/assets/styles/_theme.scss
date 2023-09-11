@@ -1,0 +1,26 @@
+:root {
+  --color-primary: #fff;
+  --color-secondary: #e5edf5c7;//background
+  --color-tertiary: #e4e6e8;
+  --color-soft : #e0ecf8;
+  --color-hover : #f4f4f4;
+  --color-font: #000;
+  --color-font-fade : #3d3c3c80;   
+  --color-border: #eff1f2;
+  --color-shadow : #0000001b;
+
+  }
+  
+ .theme-dark {
+
+    // --color-primary: #b2aeae33;
+    --color-primary: #191A23;
+    --color-secondary: #383a48c3;//background
+    --color-tertiary: #24252b;
+    --color-soft : rgb(33, 35, 46);
+    --color-hover : #39393bf6;
+    --color-font: #ffffff;
+    --color-font-fade :rgba(204, 204, 204, 0.923);
+    --color-border: #3d3e4d;
+    --color-shadow : #e0dfdf0a;
+  }
