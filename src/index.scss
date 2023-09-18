@@ -2,8 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@import '../src/assets/styles/index';
+
 .theme{
     background-color: var( --color-primary);
     color: var(--color-font);
     font-family : $font-primary;
 }
+
+.border{
+    border: 1px solid var(--color-border);
+}
+
+input{
+    background-color: var(--color-primary)!important;
+}
+
+.invalid-feedback{
+    color: var(--color-error);
+    
+}
+
+.invalid-feedback::first-letter {
+    text-transform: capitalize;
+}    

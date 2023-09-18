@@ -6,7 +6,7 @@ function App() {
   const theme = useAppSelector(selectTheme)
   return (
     <>
-     <div className={`${theme} theme w-full max-h-[100vh] transition-all`}>
+     <div className={`${theme} theme w-full h-[100vh] transition-all`}>
       <RoutesComponent />
     </div>
     </>
